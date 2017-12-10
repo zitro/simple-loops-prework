@@ -46,9 +46,8 @@ end
 def for_iterator(number_of_times)
   # code your solution here using the "for" keyword
   # remember that `for` requires a range of numbers. How can we turn our number into a range?
-number = number_of_times
-range = 0..number
+
   phrase = "Welcome to Flatiron School's Web Development Course!"
-for item in range do
+for number_of_times in 1..100 do
   puts phrase
 end
